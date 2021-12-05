@@ -1,0 +1,325 @@
+body {
+  height: 1920px;
+  width: 1080px;
+}
+.fondo {
+  background-image: url("./img/img4.jpg");
+  background-size: cover;
+  height: 1080px;
+}
+.container {
+  padding: 70px;
+  width: 1110px;
+  height: 755px;
+}
+.text {
+  text-align: left;
+  font: normal normal normal 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.item {
+  float: left;
+  width: 551px;
+  height: 755px;
+}
+
+.uno {
+  background-image: url("./img/img3.jpg");
+  background-size: cover;
+}
+
+.dos {
+  background-color: white;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  height: 45px;
+  width: 220px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 21px;
+  margin-left: 100px;
+}
+.btn:hover {
+  background-color: rgb(59, 59, 197);
+  color: white;
+}
+.ref {
+  margin-top: 55%;
+  float: left;
+}
+.nota {
+  margin-left: 10px;
+  text-align: left;
+  font: italic normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #bfbbbb;
+  opacity: 1;
+}
+.accordion {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 16px 14px 6px #00000047;
+  border: 1px solid #707070;
+  opacity: 1;
+  max-width: 550px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 14px 20px;
+}
+.pre {
+  padding: 5px;
+  margin-left: 15px;
+  text-align: left;
+  font: italic normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #bfbbbb;
+}
+.sec {
+  text-align: left;
+  font: italic normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #bfbbbb;
+}
+.contenido {
+  color: #4c0101;
+}
+.accordion__label {
+  text-align: left;
+  font: italic normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #bfbbbb;
+  opacity: 1;
+  display: block;
+  color: #6d6c6c;
+
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+}
+
+.accordion__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 12px;
+  height: 6px;
+
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23707070;" /></svg>');
+  background-size: contain;
+  transition: transform 0.4s;
+}
+
+.accordion__content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.accordion__input {
+  display: none;
+  overflow: hidden;
+  padding: 0 18px;
+  background-color: white;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+}
+.accordion {
+  position: static;
+  margin-left: 70%;
+  margin-top: -43%;
+}
+
+.read-more-container {
+  display: flex;
+  flex-direction: column;
+  color: #111;
+  gap: 1rem;
+}
+
+.textmore {
+  text-align: left;
+  font: normal normal normal 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.container5 {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 2px;
+  line-height: 1.4rem;
+}
+
+.read-more-btn {
+  color: #8b8e91;
+  text-align: left;
+  font: normal normal normal 25px/33px Segoe UI;
+  letter-spacing: 0px;
+}
+
+.read-more-text {
+  display: none;
+}
+
+.read-more-text--show {
+  display: inline;
+}
+
+.comentario {
+  margin-top: 60px;
+  margin-left: 70%;
+  position: relative;
+  background-color: white;
+  text-align: left;
+  font: normal normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 548px;
+  height: 433px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.enunciado {
+  margin-left: 15px;
+  text-align: left;
+  font: normal normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.item2 {
+  margin-top: 8px;
+  padding: 15px;
+  float: left;
+}
+.foto {
+  height: 30px;
+}
+
+.desc {
+  width: 370px;
+  border-bottom: 2px solid;
+  text-align: left;
+  font: normal normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.tam {
+  margin-top: 10px;
+  display: block;
+  height: 35px;
+}
+
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .container {
+    padding: 15px;
+    height: 400px;
+    width: 300px;
+  }
+  .item {
+    width: 150px;
+    height: 200px;
+  }
+  .uno {
+    width: 150px;
+    height: 200px;
+  }
+  .dos {
+    width: 150px;
+    height: 200px;
+  }
+  .container5 {
+    padding: 1px;
+    width: 150px;
+    height: 200px;
+  }
+  .textmore {
+    text-align: left;
+    font: normal 9px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .read-more-btn {
+    font-size: 9px;
+  }
+  .nota {
+    font-size: 9px;
+    width: 100px;
+  }
+  .btn {
+    height: 25px;
+    width: 50px;
+    font-size: 11px;
+  }
+  .dos {
+    width: 100px;
+    height: 200px;
+  }
+
+  .ref {
+    margin-right: -10px;
+    position: relative;
+    margin-top: -35px;
+    float: left;
+    width: 5px;
+  }
+  .accordion{
+      width: 300px;
+      margin-left: 10px;
+  }
+  .comentario{
+      margin-top: 40px;
+      width: 300px;
+      height: 500px;
+       margin-left: 10px;
+  }
+.ta1{
+    width: 20px;
+}
+
+.ta2{
+    width: 155px;
+    font-size: 11px;
+}
+.ta3{
+    border-bottom: 2px solid;
+    height: 96px;
+}
+
+
+
+}

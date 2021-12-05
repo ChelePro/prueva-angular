@@ -1,0 +1,102 @@
+.fotter {
+  width: 1659px;
+  height: 72px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.texto {
+  width: 1450px;
+  text-align: left;
+  font: italic normal normal 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #4c0101;
+  opacity: 1;
+}
+
+.item {
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+/* Dropup Button */
+.dropbtn {
+  margin-left: 130px;
+  width: 261px;
+  height: 72px;
+  background: #d8d8d8 0% 0% no-repeat padding-box;
+  color: #4c0101;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+
+  opacity: 1;
+  font: normal normal bold 18px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #4c0101;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  margin-left: 130px;
+  width: 261px;
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-color: #bbbbbb;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .fotter{
+    width: 150px;
+    height: 50px;
+  }
+  .texto{
+    font-size: 11px;
+    width: 200px;
+  }
+.dropbtn{
+  font-size: 12px;
+  width: 100px;
+  margin-left: 0px;
+}
+
+.dropup-content{
+  width: 100px;
+}
+}
